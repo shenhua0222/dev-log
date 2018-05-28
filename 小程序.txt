@@ -9,5 +9,11 @@
 
 	1.小程序的坑真是太几把多了， 开发了一周，感觉这不是一个很成熟的东西，谈一下自己的几点体会；
 
-	1：调试工具不好用，网页抓取元素看不到布局。  2.编译出错了，没有给出错在哪里或者给出的错误地方不准确。  3.backgournd-image 不支持本地图片加载。 4。偶尔莫名奇妙的报错需要重新编译或者重启调试工具，让人摸不着头脑
+	1：调试工具不好用，网页抓取元素看不到布局。  2.编译出错了，没有给出错在哪里或者给出的错误地方不准确。  3.backgournd-image 不支持本地图片加载。 4。偶尔莫名奇妙的报错需要重新编译或者重启调试工具，让人摸不着头脑  5：超过2m不能预览。
 
+
+11:02 2018/5/28
+
+	1.  语法错误， 单引号不全，  报错：
+(node:10932) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): SyntaxError: unknown: Unterminated string constant (1:11)
+(node:10932) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
