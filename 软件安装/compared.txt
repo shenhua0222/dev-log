@@ -1,0 +1,2 @@
+10:27 2018/6/28
+	1. C:\Users\Admin\AppData\Roaming\BeyondCompare  删除下面的文件，重新安装

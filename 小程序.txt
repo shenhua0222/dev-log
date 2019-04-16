@@ -17,3 +17,7 @@
 	1.  语法错误， 单引号不全，  报错：
 (node:10932) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): SyntaxError: unknown: Unterminated string constant (1:11)
 (node:10932) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+
+15:52 2018/6/14
+	1. 今天出了一个很奇快的bug, 用mp-vue 编写小程序时，3个选择项，第二个和第三个总是要先选择第一个后才能被选中，bug原因： 小程序视图层没有渲染，经验教训---尽量采用简单的数据类型，这样赋值时更易触发视图层更新。 --- 浪费了快自己两个小时。
