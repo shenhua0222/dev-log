@@ -4,6 +4,25 @@
 
 	2. koa ctx.cookies.set('name', 1, {signed: true}), 为什么signed为true, 报错？？？？？？？？？？？？
 
+	3.$nextTick 原理
+
+	4. 变量提升
+
+                5. 原型链
+
+	6.事件循环
+
+	7.双向绑定原理
+
+	8.const let val 差异
+
+	9.闭包
+
+	10. 垃圾回收机制
+
+
+	
+
 
 	
 	
